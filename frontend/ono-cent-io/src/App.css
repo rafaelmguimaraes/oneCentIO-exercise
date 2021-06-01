@@ -1,0 +1,78 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14pt;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+
+}
+
+.header-body {
+  background-color: rgb(7, 156, 87);
+  display: flex;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  justify-content: center;
+  color: white;
+}
+.container-card {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.card-body {
+  box-shadow: 1px 1px 5px black; 
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px; 
+  min-height: 300px;
+}
+
+.card-title {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.card-image {
+  text-align: center;
+  width: 100%;
+}
+
+.card-image img {
+  max-width: 250px;
+}
+
+.card-price {
+  color: green;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-button{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.btn-bid {
+  background-color: rgb(35, 204, 111);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 4px 3px rgba(255, 255, 255, 0.5);
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+}
